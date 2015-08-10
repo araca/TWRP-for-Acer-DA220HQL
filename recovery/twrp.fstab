@@ -1,6 +1,6 @@
 # mount point	fstype		device
 
-/sdcard		vfat		/dev/block/platform/omap/omap_hsmmc.0/mmcblk1p1 	/dev/block/platform/omap/omap_hsmmc.0/mmcblk1
+/external_sd		vfat		/dev/block/platform/omap/omap_hsmmc.0/mmcblk1p1 	/dev/block/platform/omap/omap_hsmmc.0/mmcblk1 flags=display="External Storage";storage;wipeingui;removable
 /system		ext4		/dev/block/platform/omap/omap_hsmmc.1/by-name/system
 /cache		ext4		/dev/block/platform/omap/omap_hsmmc.1/by-name/cache
 /data		ext4		/dev/block/platform/omap/omap_hsmmc.1/by-name/userdata
